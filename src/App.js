@@ -1,11 +1,12 @@
 import './App.css';
-import StateEx from './component/StateEx';
+//import StateEx from './component/StateEx';
+import ListEx from './component/ListEx';
 
 function App(props) {
   return (
     <div className="App">
      {props.name}
-     <StateEx/>
+     <ListEx/>
     </div>
   );
 }

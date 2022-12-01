@@ -3,7 +3,6 @@ import React, { Component } from 'react'
 export default class StateEx extends Component {
     constructor(props) {
       super(props)
-    
       this.state = {
          class:1,
          name:"Gm"
