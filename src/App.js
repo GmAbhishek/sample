@@ -1,9 +1,13 @@
 import './App.css';
-function App() {
+import StateEx from './component/StateEx';
+
+function App(props) {
   return (
     <div className="App">
-      HEMA THAMS
+     {props.name}
+     <StateEx/>
     </div>
   );
 }
+
 export default App;
