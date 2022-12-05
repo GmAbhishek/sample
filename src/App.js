@@ -1,12 +1,11 @@
 import './App.css';
-//import StateEx from './component/StateEx';
-import ListEx from './component/ListEx';
-
+import HoverCounter from './HOCex/HoverCounter';
+import ClickCounter from './HOCex/Counter';
 function App(props) {
   return (
-    <div className="App">
-     {props.name}
-     <ListEx/>
+   <div className="App">
+  <ClickCounter/>
+  <HoverCounter/>
     </div>
   );
 }

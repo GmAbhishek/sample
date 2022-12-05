@@ -1,13 +1,20 @@
-import React, { Component } from 'react'
-export default class ListEx extends Component {
-  render() {
-     let num = [ 1 , 4 ,7 ,544 ,654 ,44];
-     var numList = num.map((num)=>num*5+" Hello");
-     console.log(numList);
-     return(
-      <div className="List">
-      <button>Tap!</button>
+import React from 'react'
+export default function ListEx() {
+  let num = [ 1 , 5 ,25 ,225 ,1125 ,5625];
+     var numList = num.map((num)=>num*5+"*5 = ");
+     console.log(num.map((num)=>num*5+"*5 = "));
+  return (
+    
+    <p> {numList}</p>
+    
+    /*
+    <>
+    <div >
+    {numList}
+    <br></br>
+    <button> Tap!</button>
     </div>
-     );
-  }
+    <span> Hey Nigga!</span>
+    </>*/
+  )
 }
