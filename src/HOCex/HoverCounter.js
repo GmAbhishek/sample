@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+/*import React, { Component } from 'react'
 
 export default class HoverCounter extends Component {
     constructor(props) {
@@ -8,7 +8,6 @@ export default class HoverCounter extends Component {
       }
     }
     inc =()=>{this.setState({hovercount:this.state.hovercount+1})}
-    bulge= ()=>{}
   render() {
     return (
         <>
@@ -17,3 +16,4 @@ export default class HoverCounter extends Component {
     )
   }
 }
+*/
