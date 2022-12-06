@@ -1,5 +1,4 @@
-/*import React, { Component } from 'react'
-
+import React, { Component } from 'react'
 export default class HoverCounter extends Component {
     constructor(props) {
       super(props)
@@ -11,9 +10,8 @@ export default class HoverCounter extends Component {
   render() {
     return (
         <>
-      <h2>HoverCounter<p>{this.state.hovercount}<br/><button onMouseLeave={this.inc} > Hover over me!  </button></p></h2>
+      <h1>HoverCounter<p>{this.state.hovercount}<br/><h3><a onMouseLeave={this.inc} href="https://www.tesla.com" >Tesla Hover</a></h3></p></h1>
         </>
     )
   }
 }
-*/
