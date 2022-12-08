@@ -1,17 +1,30 @@
-import React, { Component } from 'react'
+import React, { Component } from "react";
 export default class HoverCounter extends Component {
-    constructor(props) {
-      super(props)
-      this.state = {
-         hovercount:0
-      }
-    }
-    inc =()=>{this.setState({hovercount:this.state.hovercount+1})}
+  constructor(props) {
+    super(props);
+    this.state = {
+      hovercount: 0,
+    };
+  }
+  inc = () => {
+    this.setState({ hovercount: this.state.hovercount + 1 });
+  };
   render() {
     return (
-        <>
-      <h1>HoverCounter<p>{this.state.hovercount}<br/><h3><a onMouseLeave={this.inc} href="https://www.tesla.com" >Tesla Hover</a></h3></p></h1>
-        </>
-    )
+      <>
+        <h1>
+          HoverCounter
+          <br />
+          <br />
+          {this.state.hovercount}
+          <br />
+        </h1>
+        <h2>
+          <a onMouseLeave={this.inc} href="http://localhost:3000/">
+            Reset/Hover Link
+          </a>
+        </h2>
+      </>
+    );
   }
 }
